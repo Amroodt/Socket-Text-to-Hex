@@ -1,4 +1,4 @@
-# Endian string reversal
+# Endian string reversal (TCP Sockets)
 Uses sockets to send a string from a client, reverse the character order of the  string on the server and send the processed string back.
 
 ## Context
