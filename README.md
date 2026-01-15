@@ -1,5 +1,6 @@
 # String reversal (TCP Sockets)
 Uses sockets to send a string from a client, reverse the character order of the  string on the server and send the processed string back.
+Although production code should use htonl() / ntohl() for clarity and portability, this example demonstrates manual serialization to make byte ordering explicit.
 
 ## 32-bit reversal
 If we take a 4 byte example like my name "Joel", each letter takes up 8 bits of storage equivalent to up to 0x00 - 0xFF
